@@ -1,0 +1,76 @@
+*:focus {
+  outline: none;
+}
+
+.todo__form {
+  align-items: center;
+  justify-content: center;
+  background-color: darkgrey;
+  border: 3px ridge black;
+}
+
+.todo__form__button {
+  background-color: teal;
+}
+
+.todo__form__button:hover {
+  background-color: darkcyan;
+}
+
+.todo__form__delete {
+  background-color: crimson;
+  margin-left: 1em;
+}
+
+.todo__form__delete:hover {
+  background-color: red;
+}
+
+.todo__list__cards {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.todo__card__done {
+  justify-content: space-between;
+  opacity: .5;
+  background-color: lightgray;
+}
+
+.todo__card__done:hover {
+  opacity: 1;
+}
+
+.todo__list__cards,
+.todo__form,
+.todo__card__done {
+  display: flex;
+}
+
+.todo__form__button,
+.todo__form__delete {
+  color: white;
+}
+
+.todo__card__task:hover,
+.todo__card__done:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.todo__form__input,
+.todo__form__delete,
+.todo__form__button {
+  height: 3em;
+  border: 1px solid black;
+}
+
+.todo__card__done,
+.todo__card__task {
+  list-style-type: none;
+  font-size: 20px;
+  height: 200px;
+  width: 200px;
+  margin: 1em;
+}
+

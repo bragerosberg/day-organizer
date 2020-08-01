@@ -1,0 +1,40 @@
+body {
+  background-color: papayawhip;
+}
+
+.weather__day__wrapper {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightgray;
+  margin: 0;
+  padding: 2em;
+}
+
+.weather__loader {
+  justify-content: center;
+}
+
+.weather__day {
+  border: 1px solid black;
+}
+
+.weather__day:hover {
+  border: 1px solid yellow;
+}
+
+.weather__day--item p {
+  margin-bottom: 0;
+}
+
+.weather__day__wrapper,
+.weather__loader {
+  display: flex;
+}
+
+.weather__date,
+.weather__img {
+  height: 3em;
+  width: 100%;
+  text-align: center;
+}

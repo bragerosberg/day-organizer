@@ -1,6 +1,5 @@
 import React from 'react';
-import Board from './components/Board/Board';
-import './App.css';
+import Board from './Board/Board';
 
 class App extends React.Component {
   constructor(props) {

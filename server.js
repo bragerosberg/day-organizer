@@ -13,8 +13,9 @@ app.use('/graphql', graphqlHTTP({
 })
 );
 
+app.use(express.static('public'));
+
 app.get('*', (req, res) => {
-  app.use(express.static('public'));
   res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 })
 

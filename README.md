@@ -1,6 +1,8 @@
 ![DayOrganizer](illustrations/dayorganizer.png)
+## Can't wait to try it out? Go ahead and click the link below ⬇️
+Click [here](organizeyourday.herokuapp.com) or copy the link organizeyourday.herokuapp.com
 
-## Want to try out the application?
+## Want to try out the application manually?
 How cool! Simply clone this repository into your desired destination
 * Inside the client folder: 
   * Install dependecies ```npm i```

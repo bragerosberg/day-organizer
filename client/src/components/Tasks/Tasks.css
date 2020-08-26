@@ -5,7 +5,7 @@
 .todo__form {
   align-items: center;
   justify-content: center;
-  background-color: darkgrey;
+  background-color: rgb(1, 104, 104);
   border: 3px ridge black;
 }
 
@@ -45,6 +45,14 @@
 .todo__form,
 .todo__card__done {
   display: flex;
+}
+
+.todo__card__task {
+  background-color: #fbe4c5;
+  color: black;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
 }
 
 .todo__form__button,

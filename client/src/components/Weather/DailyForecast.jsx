@@ -19,7 +19,7 @@ const DailyForecast = ({ weather: {
     <main className="weather__day">
       <p className="weather__date">{day}/{month}</p>
       {<img className="weather__img"src={imgUri} alt="weather"/>}
-      <p>{Math.round(min_temp * 10)/ 10}°C - {Math.round(max_temp * 10)/ 10}°C, {Math.round(wind_speed * 10)/ 10} m/s</p>
+      <p>{Math.round(min_temp * 10)/ 10}°C - {Math.round(max_temp * 10)/ 10}°C{Math.round(wind_speed * 10)/ 10} m/s</p>
     </main>
   )
 }

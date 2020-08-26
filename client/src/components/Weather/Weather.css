@@ -1,12 +1,12 @@
 body {
-  background-color: papayawhip;
+  background-color: darkslategray;
 }
 
 .weather__day__wrapper {
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  background-color: lightgray;
+  background-color: teal;
   margin: 0;
   padding: 2em;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .weather__day:hover {
-  border: 1px solid yellow;
+  border: 1px solid hotpink;
 }
 
 .weather__day--item p {

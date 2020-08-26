@@ -18,6 +18,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 })
 
-const PORT = process.env.port || 3000;
+const PORT = process.env.SERVER_PORT || 5000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

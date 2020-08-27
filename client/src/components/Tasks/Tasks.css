@@ -10,20 +10,20 @@
 }
 
 .todo__form__button {
-  background-color: teal;
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
 }
 
 .todo__form__button:hover {
-  background-color: darkcyan;
+  background: linear-gradient(to right, #4196ac, #b2f1ff);
 }
 
 .todo__form__delete {
-  background-color: crimson;
+  background: linear-gradient(to right, #ed213a, #93291e);
   margin-left: 1em;
 }
 
 .todo__form__delete:hover {
-  background-color: red;
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
 }
 
 .todo__list__cards {
@@ -35,6 +35,10 @@
   justify-content: space-between;
   opacity: .5;
   background-color: lightgray;
+  color: black;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
 }
 
 .todo__card__done:hover {

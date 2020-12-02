@@ -29,11 +29,11 @@ For this project I am further developing a simple React todo list I have created
 * MetaWeather API (link [here](https://www.metaweather.com/api/))
  
  # Challenges Faced
- This section will be filled out sortly.
+This section will be filled out shortly.
 
 
 # Design
-This section will be filled out sortly.
+This section will be filled out shortly.
 ## Illustration 
 #### Weather tab
 ![DayOrganizer](illustrations/weather.png)
@@ -43,7 +43,7 @@ This section will be filled out sortly.
 ![DayOrganizer](illustrations/screenshotOfSite.png)
 
 # Full Description
-This section will be filled out sortly.
+This section will be filled out shortly.
 
 
 # Contact

@@ -2,12 +2,10 @@ const axios = require('axios');
 const BigInt = require('graphql-bigint');
 const {
   GraphQLString,
-  GrapQl,
   GraphQLFloat,
   GraphQLObjectType,
   GraphQLList,
   GraphQLSchema,
-  graphql
 } = require('graphql');
 
 const WeatherType = new GraphQLObjectType({
@@ -29,11 +27,11 @@ const RootQuery = new GraphQLObjectType({
   fields: {
     weather: {
       type: new GraphQLList(WeatherType),
-      resolve(parent, args) {
+      resolve() {
         return axios
           .get('https://www.metaweather.com/api/location/862592')
-          .then(res => res.data)
-          .then(data => data.consolidated_weather)
+          .then(({ data }) => data)
+          .then(({ consolidated_weather }) => consolidated_weather)
       }
     }
   }

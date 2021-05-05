@@ -1,7 +1,6 @@
 import React from 'react';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
-
 import TodoList from '../Tasks/TodoList';
 import Weather from '../Weather/Weather';
 
@@ -11,21 +10,31 @@ const client = new ApolloClient({
 });
 
 
-const Board = (props) => {
+const Board = ({ 
+  tasks,
+  taskInput,
+  solved,
+  deleteTask,
+  appendTask,
+  setTaskInput,
+  toggleTask,
+  clearInputField,
+  deleteAllTodos
+}) => {
   return(
     <main>
         <ApolloProvider client={client}>
           <Weather />
         </ApolloProvider>
-        <TodoList tasks={props.tasks}
-        taskInput={props.taskInput}
-        solved={props.solved}
-        deleteTask={props.deleteTask}
-        appendTask={props.appendTask}
-        setTaskInput={props.setTaskInput}
-        toggleTask={props.toggleTask}
-        clearInputField={props.clearInputField}
-        deleteAllTodos={props.deleteAllTodos}
+        <TodoList tasks={tasks}
+          taskInput={taskInput}
+          solved={solved}
+          deleteTask={deleteTask}
+          appendTask={appendTask}
+          setTaskInput={setTaskInput}
+          toggleTask={toggleTask}
+          clearInputField={clearInputField}
+          deleteAllTodos={deleteAllTodos}
         />
 
     </main>

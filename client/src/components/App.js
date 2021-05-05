@@ -62,14 +62,14 @@ class App extends React.Component {
     return (
       <main className="todo__app">
         <Board tasks={this.state.tasks}
-        taskInput={this.state.taskInput}
-        solved={this.state.solved}
-        deleteTask={this.deleteTask}
-        appendTask={this.appendTask}
-        setTaskInput={this.setTaskInput}
-        toggleTask={this.toggleTask}
-        clearInputField={this.clearInputField}
-        deleteAllTodos={this.deleteAllTodos}
+          taskInput={this.state.taskInput}
+          solved={this.state.solved}
+          deleteTask={this.deleteTask}
+          appendTask={this.appendTask}
+          setTaskInput={this.setTaskInput}
+          toggleTask={this.toggleTask}
+          clearInputField={this.clearInputField}
+          deleteAllTodos={this.deleteAllTodos}
         />
       </main>
     );
